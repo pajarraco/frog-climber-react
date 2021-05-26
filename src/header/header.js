@@ -1,11 +1,14 @@
 import React from 'react';
 
+import Navigation from './nav';
+
 import logo from '../assets/logo.svg';
 import './header.css';
 
 function Header() {
   return (
     <header className="App-header">
+      <Navigation></Navigation>
       <img src={logo} className="App-logo" alt="logo" />
       <p>
         Edit <code>src/App.js</code> and save to reload.
