@@ -6,8 +6,8 @@ function UserPage() {
 
   return (
     <div className='container'>
-      <h1>Hello there user {user}</h1>
-      <p>This is your awesome User Profile page</p>
+      <h1>User Profile</h1>
+      <p>This is your awesome User Profile for {user}</p>
     </div>
   );
 }
