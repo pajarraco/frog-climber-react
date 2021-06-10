@@ -4,11 +4,11 @@ import { Route, Switch } from 'react-router-dom';
 import Header from './header/header';
 import Footer from './footer/footer';
 
-import HomePage from './pages/HomePage';
-import UserPage from './pages/UserPage';
+import HomePage from './pages/home_page';
+import UserPage from './pages/user_page';
 
 
-import './App.css';
+import './app.css';
 
 function App() {
   return (
