@@ -12,7 +12,7 @@ import './app.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
