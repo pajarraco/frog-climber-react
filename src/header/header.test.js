@@ -19,5 +19,12 @@ describe('Header', () => {
     expect(logo).toBeInTheDocument();
     expect(logo).toHaveClass('App-logo');
     expect(logo).toHaveAttribute('src', expect.stringContaining('logo'));
-  })
+  });
+
+  test('should have a hero message', () => {
+    render(<Router><Header /></Router>);
+    const heroMessage = screen.getByText(/All About Experience/, { selector: 'p' });
+    expect(heroMessage).toBeInTheDocument();
+    expect(heroMessage).toHaveClass('hero-message');
+  });
 });

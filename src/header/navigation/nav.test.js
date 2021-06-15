@@ -10,10 +10,12 @@ describe('Navigation', () => {
   test('should have links', async () => {
     render(<Router><Navigation /></Router>);
     const navigationItem = await screen.findAllByRole('link');
-    expect(navigationItem).toHaveLength(2);
+    expect(navigationItem).toHaveLength(3);
     expect(navigationItem[0]).toHaveTextContent(/Home/);
     expect(navigationItem[0]).toHaveAttribute('href', '/');
     expect(navigationItem[1]).toHaveTextContent(/User Profile/);
-    expect(navigationItem[1]).toHaveAttribute('href', '/user');
+    expect(navigationItem[1]).toHaveAttribute('href', '/users/ernesto');
+    expect(navigationItem[2]).toHaveTextContent(/Follow Us/);
+    expect(navigationItem[2]).toHaveAttribute('href', '/follow');
   });
 });
