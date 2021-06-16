@@ -23,7 +23,7 @@ describe('Header', () => {
 
   test('should have a hero message', () => {
     render(<Router><Header /></Router>);
-    const heroMessage = screen.getByText(/All About Experience/, { selector: 'p' });
+    const heroMessage = screen.getByText(/All About The Experience/, { selector: 'p' });
     expect(heroMessage).toBeInTheDocument();
     expect(heroMessage).toHaveClass('hero-message');
   });

@@ -10,7 +10,7 @@ function Header() {
     <header className="App-header">
       <Navigation />
       <img src={logo} className="App-logo" alt="logo" />
-      <p className="hero-message">All About Experience</p>
+      <p className="hero-message">All About The Experience</p>
     </header>
   );
 }
