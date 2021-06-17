@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/git%20/static/css/main.023b4baa.chunk.css",
-    "main.js": "/git%20/static/js/main.45f0ec12.chunk.js",
-    "main.js.map": "/git%20/static/js/main.45f0ec12.chunk.js.map",
-    "runtime-main.js": "/git%20/static/js/runtime-main.f64de610.js",
-    "runtime-main.js.map": "/git%20/static/js/runtime-main.f64de610.js.map",
-    "static/js/2.e1d625ab.chunk.js": "/git%20/static/js/2.e1d625ab.chunk.js",
-    "static/js/2.e1d625ab.chunk.js.map": "/git%20/static/js/2.e1d625ab.chunk.js.map",
-    "static/js/3.5faf605c.chunk.js": "/git%20/static/js/3.5faf605c.chunk.js",
-    "static/js/3.5faf605c.chunk.js.map": "/git%20/static/js/3.5faf605c.chunk.js.map",
-    "index.html": "/git%20/index.html",
-    "static/css/main.023b4baa.chunk.css.map": "/git%20/static/css/main.023b4baa.chunk.css.map",
-    "static/js/2.e1d625ab.chunk.js.LICENSE.txt": "/git%20/static/js/2.e1d625ab.chunk.js.LICENSE.txt",
-    "static/media/logo_base.756a75d9.svg": "/git%20/static/media/logo_base.756a75d9.svg"
+    "main.css": "/frog-climber-react/static/css/main.023b4baa.chunk.css",
+    "main.js": "/frog-climber-react/static/js/main.45f0ec12.chunk.js",
+    "main.js.map": "/frog-climber-react/static/js/main.45f0ec12.chunk.js.map",
+    "runtime-main.js": "/frog-climber-react/static/js/runtime-main.831bd0b1.js",
+    "runtime-main.js.map": "/frog-climber-react/static/js/runtime-main.831bd0b1.js.map",
+    "static/js/2.e1d625ab.chunk.js": "/frog-climber-react/static/js/2.e1d625ab.chunk.js",
+    "static/js/2.e1d625ab.chunk.js.map": "/frog-climber-react/static/js/2.e1d625ab.chunk.js.map",
+    "static/js/3.5faf605c.chunk.js": "/frog-climber-react/static/js/3.5faf605c.chunk.js",
+    "static/js/3.5faf605c.chunk.js.map": "/frog-climber-react/static/js/3.5faf605c.chunk.js.map",
+    "index.html": "/frog-climber-react/index.html",
+    "static/css/main.023b4baa.chunk.css.map": "/frog-climber-react/static/css/main.023b4baa.chunk.css.map",
+    "static/js/2.e1d625ab.chunk.js.LICENSE.txt": "/frog-climber-react/static/js/2.e1d625ab.chunk.js.LICENSE.txt",
+    "static/media/logo_base.756a75d9.svg": "/frog-climber-react/static/media/logo_base.756a75d9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f64de610.js",
+    "static/js/runtime-main.831bd0b1.js",
     "static/js/2.e1d625ab.chunk.js",
     "static/css/main.023b4baa.chunk.css",
     "static/js/main.45f0ec12.chunk.js"
