@@ -11,7 +11,7 @@ function Navigation() {
         <li><Link to='/follow'>Follow Us</Link></li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default Navigation;

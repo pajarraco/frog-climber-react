@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 
 function UserPage() {
-  let { user } = useParams();
+  const { user } = useParams();
 
   return (
     <div className='container'>

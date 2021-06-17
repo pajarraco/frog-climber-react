@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import './app.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 
 import Header from './header/header';
@@ -18,12 +18,12 @@ library.add(fab, fas);
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <Header />
       <Switch>
-        <Route exact path='/' component={HomePage} />
-        <Route path='/users/:user' component={UserPage} />
-        <Route exact path='/follow' component={FollowPage} />
+        <Route exact path="/" component={ HomePage } />
+        <Route path="/users/:user" component={ UserPage } />
+        <Route exact path="/follow" component={ FollowPage } />
       </Switch>
       <Footer />
     </div>
