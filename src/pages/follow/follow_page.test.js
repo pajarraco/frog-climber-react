@@ -14,10 +14,19 @@ describe('Follow Page', () => {
   });
 
   test('should render 5 links', () => {
-    render(<FollowPage/>);
+    render(<FollowPage />);
     const links = screen.getAllByRole('link');
 
     expect(links.length).toBe(5);
+    expect(links[ 0 ]).toHaveTextContent(/YouTube/);
+    expect(links[ 0 ]).toHaveAttribute('href', 'https://www.youtube.com/channel/UCAbswsLikC3QeLSHmOLdBNA');
+    expect(links[ 1 ]).toHaveTextContent(/Instagram/);
+    expect(links[ 1 ]).toHaveAttribute('href', 'https://www.instagram.com/frogclimber/');
+    expect(links[ 2 ]).toHaveTextContent(/Facebook/);
+    expect(links[ 2 ]).toHaveAttribute('href', 'https://www.facebook.com/frogclimber');
+    expect(links[ 3 ]).toHaveTextContent(/LinkedIn/);
+    expect(links[ 3 ]).toHaveAttribute('href', 'https://www.linkedin.com/company/frogclimber/');
+    expect(links[ 4 ]).toHaveTextContent(/Twitter/);
+    expect(links[ 4 ]).toHaveAttribute('href', 'https://twitter.com/frog_climber');
   });
-
 });
