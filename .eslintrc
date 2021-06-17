@@ -23,7 +23,7 @@
     "react/jsx-curly-newline": [2, { "multiline": "require", "singleline": "forbid" }],
     "react/jsx-equals-spacing": [2, "never"],
     "react/jsx-newline": [2, { "prevent": true }],
-    "react/jsx-one-expression-per-line": [0, { "allow": "single-child" }],
+    "react/jsx-one-expression-per-line": [1, { "allow": "single-child" }],
     "react/jsx-props-no-multi-spaces": [2],
     "class-methods-use-this": [1],
     "no-undef": [1],
