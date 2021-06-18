@@ -7,7 +7,7 @@ function FollowPage() {
       <div className='row'>
         <div className='col'>
           <a className='btn-social' href='https://www.youtube.com/channel/UCAbswsLikC3QeLSHmOLdBNA' target='_blank' rel='noopener noreferrer'>
-            <FontAwesomeIcon icon={ [ 'fab', 'youtube' ] } size='2x' />YouTube
+            <FontAwesomeIcon icon={ [ 'fab', 'youtube' ] } size='2x' title="youtube"/>YouTube
           </a>
         </div>
         <div className='col'>

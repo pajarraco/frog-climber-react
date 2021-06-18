@@ -1,11 +1,20 @@
-import { render, screen } from '@testing-library/react';
+import { render, renderer, screen } from '@testing-library/react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(fab, fas);
 
 import FollowPage from './follow_page';
+
+export function mount(props = {}, { createNodeMock } = {}) {
+  const component = render(<FontAwesomeIcon { ...props } />, {
+    createNodeMock
+  });
+
+  return component;
+}
 
 describe('Follow Page', () => {
   test('should render follow page', () => {
@@ -28,5 +37,12 @@ describe('Follow Page', () => {
     expect(links[ 3 ]).toHaveAttribute('href', 'https://www.linkedin.com/company/frogclimber/');
     expect(links[ 4 ]).toHaveTextContent(/Twitter/);
     expect(links[ 4 ]).toHaveAttribute('href', 'https://twitter.com/frog_climber');
+  });
+
+  test('render icons', () => {
+    render(<FollowPage />);
+    const icons = screen.getByTitle('youtube');
+
+    expect(icons.parentElement).toHaveClass('fa-youtube');
   });
 });
