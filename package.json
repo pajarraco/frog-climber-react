@@ -1,6 +1,6 @@
 {
   "name": "frog-climber-react",
-  "homepage": "https://pajarraco.github.io/frog-climber-react/",
+  "homepage": "https://frogclimber.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "eslint": "^7.28.0",
-    "gh-pages": "^3.2.1",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.3.1",
     "prettier-eslint": "^12.0.0"
   }
